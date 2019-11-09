@@ -37,6 +37,61 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
 #--------------------------------------------------------------------------
 
     #--------------------------------------------------------------------
+    # this test covers MAIN MENU
+    # --> FURNITURE --> ART  --> JEWELRY & WATCHES --> FASHION --> 
+                    --> INTERIORS --> NEWS & CUSTOM --> STYLES --> SALES
+    #------------def test_c_mainMenu(self)::---------------------------    
+    Scenario:   Hower over on menus 
+    Given   :   On site user home page, after logging in
+    When    :   on user home page, 
+    And     :   Hover over 'FURNITURE' main menu and then sleep 1sec 
+    And     :   Hover over 'Art' main menu and then sleep 1sec
+    And     :   Hover over 'JEWELRY & WATCHES' main menu and then sleep 1sec
+    And     :   Hover over 'FASHION' main menu and then sleep 1sec
+    And     :   Hover over 'INTERIORS' main menu and then sleep 1sec
+    And     :   Hover over 'NEWS & CUSTOM' main menu and then sleep 1sec
+    And     :   Hover over 'STYLES' main menu and then sleep 1sec
+    And     :   Hover over 'SALES' main menu and then sleep 1sec
+    Then    :   AUTOMATE ON menus are working
+    #------------ END test_c_mainMenu(self)::----------------------------
+
+#--------------------------------------------------------------------------
+
+
+    #--------------------------------------------------------------------
+    # this test checks on BOTTOM MENUS 
+    #------------test_d_bottom_menu(self):---------------------------    
+    Scenario:   check BOTTOM MENUS 
+    Given   :   On site user home page, after logging in
+    When    :   on user home page, 
+    And     :   Hover over 'Trade Program' bottom menu and put it in list var
+    And     :   Hover over 'Seller Application' bottom menu and put it in list var
+    And     :   Hover over 'Seller Login' bottom menu and put it in list var
+    And     :   Hover over 'About us' bottom menu and put it in list var
+    And     :   Hover over 'Support center' bottom menu and put it in list var
+    And     :   Hover over 'Questions & Answers' bottom menu and put it in list var
+    And     :   Hover over 'Press' bottom menu and put it in list var
+    And     :   Hover over 'Careers' bottom menu and put it in list var
+    And     :   Hover over '1stdibs Gallery' bottom menu and put it in list var
+    And     :   Hover over 'Furniture' bottom menu and put it in list var
+    And     :   Hover over 'Jewlery & watches' bottom menu and put it in list var
+    And     :   Hover over 'Fine Art' bottom menu and put it in list var
+    And     :   Hover over 'Fashion' bottom menu and put it in list var
+    And     :   Hover over 'Creator' bottom menu and put it in list var
+    And     :   Hover over 'Blog' bottom menu and put it in list var
+    And     :   Hover over 'Magazine' bottom menu and put it in list var
+    And     :   Select bottom menu in list var randomly
+    And     :   Click on that menu & sleep 2sec
+    And     :   Click on page back & sleep 2sec 
+    Then    :   Check all bottom menus, and print randomly selected bottom menu
+    #------------ END test_d_bottom_menu(self):----------------------------
+
+#--------------------------------------------------------------------------
+
+
+
+
+    #--------------------------------------------------------------------
     # this test covers TOP RIGHT "My Account" MENU
     # My Account--> Account Information
     #           --> My Order
