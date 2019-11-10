@@ -57,7 +57,7 @@ class Main_Menu():
 
 
 # ------------------------------------------------------------------------------------------------------------------------
-# this method perform mouse over on Furniture main menu and then clicks on Furniture's submenus
+# this method perform mouse over on Furniture main menu and then clicks on Furniture's submenus 41
 # ------------------------------------------------------------------------------------------------------------------------
     def furniture_subMenu(self):
         main_sub_menu = self.driver.find_elements(By.XPATH, self.main_sub_menu)

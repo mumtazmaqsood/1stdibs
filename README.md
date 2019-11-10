@@ -89,6 +89,27 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
 #--------------------------------------------------------------------------
 
 
+#--------------------------------------------------------------------
+    # this test click on MAIN MENU "Furniture" and checks submenu links
+    # also click randomly a submenu in Furniture's main menu 
+    # and move to next product page
+    #------------def test_e_furniture_menu(self):---------------------------    
+    Scenario:   Hower over on main menu "Furniture" and hower on all its sub menus,  
+    Given   :   On site user home page, after logging in
+    When    :   on user home page, 
+    And     :   Hover over 'Furniture' main menu and open it 
+    And     :   Hover over on 'Furniture''s submenu & check all submenu are clicklbe(41 submenus) 
+    And     :   put submenu in a list var
+    And     :   Select a Furniture's submenu randomaly from list var
+    And     :   Click on that submenu & sleep 1sec
+    And     :   Empty List var 
+    Then    :   Open 'Furniture' main menu and checks its submenu are clickable & randomly select 
+                a submenu and click it
+    #------------ END test_e_furniture_menu(self):----------------------------
+
+#--------------------------------------------------------------------------
+
+
 
 
     #--------------------------------------------------------------------
