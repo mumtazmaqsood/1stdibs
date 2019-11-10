@@ -87,10 +87,7 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
     #------------ END test_d_bottom_menu(self):----------------------------
 
 #--------------------------------------------------------------------------
-
-
-#--------------------------------------------------------------------------
-    
+  
     
     # this test click on MAIN MENU "Furniture" and checks submenu links
     # also click randomly a submenu in Furniture's main menu 
