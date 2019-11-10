@@ -89,7 +89,7 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
 #--------------------------------------------------------------------------
 
 
-#--------------------------------------------------------------------
+#--------------------------------------------------------------------------
     # this test click on MAIN MENU "Furniture" and checks submenu links
     # also click randomly a submenu in Furniture's main menu 
     # and move to next product page
@@ -107,10 +107,10 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
                 a submenu and click it
     #------------ END test_e_furniture_menu(self):----------------------------
 
-#--------------------------------------------------------------------------
 
 
 
+#----------------------------------------------------------------------------
 
     #--------------------------------------------------------------------
     # this test covers TOP RIGHT "My Account" MENU
