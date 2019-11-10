@@ -90,6 +90,8 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
 
 
 #--------------------------------------------------------------------------
+    
+    
     # this test click on MAIN MENU "Furniture" and checks submenu links
     # also click randomly a submenu in Furniture's main menu 
     # and move to next product page
