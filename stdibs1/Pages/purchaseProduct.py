@@ -8,7 +8,7 @@ class PP():
         self.purchaseBtn_xpath = "//button[@class='_acdf6688 _b437af84 _bdfbeec1 _a82a0b63 _2e3a1260']"
         self.makeOfferBtn_xpath ="//div[@class='_f89cc499']"
 
-    #     after clicking on purchase , when page clicked for back , there is a pop-up
+    #   after clicking on purchase , when page clicked for back , there is a pop-up
         self.pop_xpath = "//div[@class='_a1f8755c']"
         self.logo_xpath = "//a[@class='_d037225c']"
 
