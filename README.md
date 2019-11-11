@@ -106,10 +106,31 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
                 a submenu and click it
     #------------ END test_e_furniture_menu(self):----------------------------
 
+#----------------------------------------------------------------------------
+
+
+    # this test randomly select a product and click on that product--> move to next page
+    #------------def test_f_select_product(self):---------------------------    
+    Scenario:   Randomly select a product and click on it  
+    Given   :   On product page, after clicking on main menus and select randomly it submenu
+    When    :   Submenus' items put in a List variable, 
+    And     :   choose a item randomly from List 
+    And     :   click on that selected item    
+    And     :   redirect to that selected item page
+    And     :   sleep 2sec
+    Then    :   randomly select a product & click it ---> redirect to specific page  
+    #------------ END test_f_select_product(self):----------------------------
+
 
 
 
 #----------------------------------------------------------------------------
+
+
+
+
+
+
 
     #--------------------------------------------------------------------
     # this test covers TOP RIGHT "My Account" MENU
