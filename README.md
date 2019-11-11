@@ -127,6 +127,23 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
 #----------------------------------------------------------------------------
 
 
+    # # this test put product in shopping cart
+    #------------def test_g_purchase_product(self):---------------------------    
+    Scenario:   Purchase a product  
+    Given   :   On a specific product page
+    When    :   Click on 'purhcase button' & sleep 1sec 
+    And     :   move to back page & sleep 1sec 
+    And     :   move to back page & sleep 1sec    
+    And     :   if element Not found---> click on logo
+    And     :   print element not found
+    Then    :   click on purhcase button, print if purchase buttom not found  
+    #------------ END test_g_purchase_product(self):----------------------------
+
+
+
+
+#----------------------------------------------------------------------------
+
 
 
 
