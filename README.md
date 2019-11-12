@@ -121,11 +121,7 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
     Then    :   randomly select a product & click it ---> redirect to specific page  
     #------------ END test_f_select_product(self):----------------------------
 
-
-
-
 #----------------------------------------------------------------------------
-
 
     # # this test put product in shopping cart
     #------------def test_g_purchase_product(self):---------------------------    
@@ -139,13 +135,27 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
     Then    :   click on purhcase button, print if purchase buttom not found  
     #------------ END test_g_purchase_product(self):----------------------------
 
-
-
-
 #----------------------------------------------------------------------------
 
 
 
+    # this test click on MAIN MENU "Art" and checks submenu links
+    # also click randomly a submenu in Art's main menu and move to next product page
+    #------------def test_h_art_menu(self):---------------------------    
+    Scenario:   Hower over on main menu "Art" and hower on all its sub menus,  
+    Given   :   On site user home page, after logging in
+    When    :   on user home page, 
+    And     :   Hover over 'Art' main menu and open it 
+    And     :   Hover over on 'Art''s submenu & check all submenu are clicklbe( 18 submenus) 
+    And     :   put submenu in a list var
+    And     :   Select a Art's submenu randomaly from list var
+    And     :   Click on that submenu & sleep 1sec
+    And     :   Empty List var 
+    Then    :   Open 'Art' main menu and checks its submenu are clickable & randomly select 
+                a submenu and click it
+    #------------ END test_h_art_menu(self):----------------------------
+
+#----------------------------------------------------------------------------
 
 
 
