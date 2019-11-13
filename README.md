@@ -157,6 +157,24 @@ Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
 
 #----------------------------------------------------------------------------
 
+    # this test click on MAIN MENU "Jewelry & Watches" and checks submenu links
+    #------------def test_k_jw_menu(self):---------------------------    
+    Scenario:   Hower over on main menu "Jewelry & Watches" and hower on all its sub menus,  
+    Given   :   On site user home page, after logging in
+    When    :   on user home page, 
+    And     :   Hover over 'Jewelry & Watches' main menu and open it 
+    And     :   Hover over on 'Art''s submenu & check all submenu are clicklbe( 16 submenus) 
+    And     :   put submenu in a list var
+    And     :   Select a Jewelry & Watches's submenu randomaly from list var
+    And     :   Click on that submenu & sleep 1sec
+    And     :   Empty List var 
+    Then    :   Open 'Jewelry & Watches' main menu and checks its submenu are clickable & randomly select 
+                a submenu and click it
+    #------------ END test_k_art_menu(self):----------------------------
+
+#----------------------------------------------------------------------------
+
+
 
 
     #--------------------------------------------------------------------
