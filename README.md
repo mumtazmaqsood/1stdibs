@@ -1,7 +1,8 @@
 # stdibs
 selenium + python testing www.1stdibs.com
 
-Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS, 
+Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS,
+Gherkin  
 #UNITEST FRAME WORK USED 
 
 
