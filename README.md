@@ -1,5 +1,5 @@
 # stdibs
-selenium + python testing www.stdibs.com
+selenium + python testing www.1stdibs.com
 
 Implemented POM , CREATED SIX PAGES AND 23 TEST CASES AND GENERATED REPORTS, 
 #UNITEST FRAME WORK USED 
